@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta
+      name="keywords"
+      content="portfolio, webtechnology,html,css,Hemanth_portfolio"
+    />
+    <meta name="author" content="Hemanth M" />
+    <title>Hemanth_portfolio</title>
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="Asserts/css/portfolio_style.css" />
+    <!-- Fonts -->
+    <link rel="icon" href="Asserts/images/Logo.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icons bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/66aa7c98b3.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- script for dotlottie-player-->
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+  </head>
+
+  <body>
+    <div class="main">
+      <!-- navbar start-->
+      <nav id="navbar">
+        <div class="logo">
+          <img src="Asserts/images/Logo.jpg" alt="logo" />
+        </div>
+        <div class="menu-icon" id="menu-icon">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="nav-items" id="nav-items">
+          <ul>
+            <div class="items">
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#About">About</a></li>
+              <li><a href="#Skills">Skills</a></li>
+              <li><a href="#Project">Project</a></li>
+              <li><a href="#Contact">Contact</a></li>
+            </div>
+            <!-- <div class="hireme">
+              <a href="#" class="btn btn-primary">Hire Me</a>
+            </div> -->
+          </ul>
+        </div>
+      </nav>
+      <!-- Home section starts -->
+      <div class="container" id="Home">
+        <div class="intro-text">
+          <h1>Hello!</h1>
+          <h2>I'm <span class="name">Hemanth M</span></h2>
+          <h3>Python Full Stack Developer</h3>
+          <div class="social-menu">
+            <ul>
+              <li>
+                <a href="https://github.com/Hemanth-m01" target="blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.instagram.com/hemanth_m_01/"
+                  target="blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+
+              <li>
+                <a
+                  href="https://web.whatsapp.com/send?phone=8088695332"
+                  target="blank"
+                  ><i class="fab fa-brands fa-whatsapp"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="profile-pic">
+          <img src="Asserts/images/Profile.jpg" alt="Hemanth M" />
+        </div>
+      </div>
+
+      <!-- about section starts here -->
+      <div class="about" id="About">
+        <div class="about_he">
+          <h1>About Me</h1>
+        </div>
+        <div class="about_container">
+          <div class="img1">
+            <img src="Asserts/images/me-538251_640.jpg" alt="D" />
+          </div>
+          <div class="content">
+            <h2>Aspiring Python Full-Stack Developer</h2>
+            <h3>Python | SQL | HTML | CSS | JS</h3>
+
+            <p>
+              Highly motivated and results-oriented Information Technology
+              student seeking a challenging position Where I can leverage my
+              strong technical skills in Python, SQL and Web Development. 
+              I am eager to contribute to the
+              organization’s growth and gain valuable industry experience.
+            </p>
+            <div class="btns">
+              <a href="tel:+918088695332"
+                ><i class="bi bi-telephone-fill"></i> Contact</a
+              >
+              <button type="button" onclick="downloadResume()">
+                <img src="./Asserts/images/download.png" /> Resume
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- skill section starts here -->
+      <div class="skill_container" id="Skills">
+        <div class="skills_he">
+          <h1>Skills</h1>
+        </div>
+        <h1>Technical Skills</h1>
+        <div class="skills">
+          <div class="skill">
+            <div class="icon">
+              <img
+                src="Asserts/images/python.png"
+                alt="skill_image"
+                srcset=""
+              />
+            </div>
+            <h2>Python</h2>
+            <p>
+              Strong in the Python concepts like Data Types,Control Flow,
+              Functions and Modules,File Handling,Exception
+              Handling,Object-Oriented Programming (OOP).
+            </p>
+
+            <!-- <div class="progress-container">
+                        <div class="progress-bar" data-skill="90"></div>
+                        <div class="progress-value">90%</div>
+                    </div> -->
+          </div>
+          <div class="skill">
+            <div class="icon">
+              <img src="Asserts/images/sql.png" alt="skill_image" srcset="" />
+            </div>
+            <h2>SQL</h2>
+            <p>
+              Skilled in writing clean, efficient queries with a solid
+              foundation in key concepts such as Joins, Subqueries, and
+              Functions. Proficient in DDL, DML, as well as managing
+              transactions and permissions with TCL and DCL. Adept at optimizing
+              database performance and ensuring data integrity.
+            </p>
+            <!-- <div class="progress-container">
+                        <div class="progress-bar" data-skill="80"></div>
+                        <div class="progress-value">87%</div>
+                    </div> -->
+          </div>
+          <div class="skill">
+            <div class="icon">
+              <img src="Asserts/images/html.png" alt="skill_image" srcset="" />
+            </div>
+            <h2>HTML</h2>
+            <p>
+              Proficient in building well-structured, semantic webpages using
+              core HTML elements like headings, links, forms, and multimedia.
+              Experienced in crafting accessible, SEO-friendly web content.
+            </p>
+
+            <!-- <div class="progress-container">
+                        <div class="progress-bar" data-skill="95"></div>
+                        <div class="progress-value">95%</div>
+                    </div> -->
+          </div>
+          <div class="skill">
+            <div class="icon">
+              <img src="Asserts/images/css.png" alt="skill_image" srcset="" />
+            </div>
+            <h2>CSS</h2>
+            <p>
+              Experienced in creating responsive, visually appealing designs
+              using CSS with an in-depth understanding of the Box Model,
+              Flexbox, and CSS Grid. Proficient in implementing animations,
+              transitions, and media queries to enhance user experience.
+            </p>
+            <!-- <div class="progress-container">
+                        <div class="progress-bar" data-skill="85"></div>
+                        <div class="progress-value">85%</div>
+                    </div> -->
+          </div>
+          <div class="skill">
+            <div class="icon">
+              <img src="Asserts/images/js.png" alt="skill_image" srcset="" />
+            </div>
+            <h2>JavaScript</h2>
+            <p>
+              Skilled in writing dynamic, interactive web applications with a
+              strong foundation in JavaScript fundamentals, including DOM
+              manipulation, event handling, and ES6+ features. Proficient in
+              working with asynchronous programming (Promises, Async/Await) and
+              utilizing Web APIs such as Fetch and LocalStorage. Experienced in
+              building modular, maintainable code using modern JavaScript tools
+              and frameworks.
+            </p>
+            <!-- <div class="progress-container">
+                        <div class="progress-bar" data-skill="75"></div>
+                        <div class="progress-value">75%</div>
+                    </div> -->
+          </div>
+          <div class="skill">
+            <div class="icon">
+              <img
+                src="Asserts/images/django.png"
+                alt="skill_image"
+                srcset=""
+              />
+            </div>
+            <h2>Django</h2>
+            <p>
+              Experienced in developing robust web applications using Django's
+              Model-Template-View (MTV) architecture. Proficient in building
+              dynamic web pages, managing databases with Django ORM, and
+              handling forms and authentication. Skilled in creating RESTful
+              APIs using Django REST Framework and optimizing applications for
+              performance and scalability.
+            </p>
+            <!-- <div class="progress-container">
+                        <div class="progress-bar" data-skill="70"></div>
+                        <div class="progress-value">70%</div>
+                    </div> -->
+          </div>
+        </div>
+      </div>
+      <!-- project section starts here -->
+      <section class="project_container" id="Project">
+        <div class="project_he">
+          <h1>Projects</h1>
+        </div>
+        <section class="project-section">
+          <!-- First Project -->
+          <div class="project-card">
+            <div class="project-left">
+              <img
+                src="Asserts/images/Screenshot (2).png"
+                alt="Profile Picture"
+                class="project-pic"
+              />
+            </div>
+            <div class="project-right">
+              <h2>
+                BookUsNow
+              </h2>
+              <p>
+                Led the team to design and develop this site which include major aspects such as API fetch, Json, form validation, payment port and etc., 
+              </p>
+              <p>
+                <strong> Languages used :</strong> HTML,CSS,JavaScript,ReactJS,Json
+              </p>
+              <p>
+                <strong> Tools used :</strong> Visual StudioCode
+              </p>
+              <div class="project-buttons">
+                <button class="btn-demo">⭐ <a href="https://book-us-now-on.netlify.app/" target="_blank">Demo</a></button>
+                <button class="btn-source">
+                  <img src="Asserts/images/github.png" alt="" /><a
+                    href="https://github.com/Hemanth-m01/BookUsNow"
+                    target="_blank"
+                    >View Source Code</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Second Project -->
+          <div class="project-card">
+            <div class="project-left">
+              <h2>Bentley Brand Website Clone</h2>
+              <p>
+                This is a simple clone of the Bentley website using HTML and
+                CSS.
+              </p>
+              <p><strong> Languages used :</strong> HTML , CSS, Javascript, ReactJS</p>
+              <p><strong> Tools used :</strong> Visual Studiocode</p>
+              <div class="project-buttons">
+                <button class="btn-demo">
+                  ⭐
+                  <a
+                    href="https://bentleysite.netlify.app/ "
+                    target="_blank"
+                    >Demo</a
+                  >
+                </button>
+                <button class="btn-source">
+                  <img src="Asserts/images/github.png" alt="" /><a
+                    href="https://github.com/Hemanth-m01/Bently"
+                    target="_blank"
+                    >View Source Code</a
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="project-right">
+              <img
+                src="Asserts/images/Screenshot (3).png"
+                alt="Project Image"
+                class="project-img"
+              />
+            </div>
+          </div>
+        </section>
+        <!-- </div> -->
+      </section>
+      <!-- contact section starts here -->
+      <section class="contact_container" id="Contact">
+        <div class="contact_he">
+          <h1>Contact Me</h1>
+        </div>
+        <div class="contact-section">
+          <div class="contact-left">
+            <dotlottie-player
+              src="https://lottie.host/9929f997-e0f3-4417-9c8f-ed0f513f7169/To7LinJ4CF.json"
+              background="transparent"
+              speed="1"
+              style="width: 500px; height: 500px"
+              loop
+              autoplay
+            ></dotlottie-player>
+          </div>
+          <div class="contact-right">
+            <h2>Let’s level up, together</h2>
+            <p>
+              You can reach us anytime via
+              <a href="mailto:hemanthm218@gmail.com"
+                >hemanthm218@gmail.com</a
+              >
+            </p>
+
+            <form
+              action="#"
+              method="get"
+              class="contact-form"
+              name="contact-form"
+              id="contactForm"
+            >
+              <div class="input-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your name"
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="you@company.com"
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <label for="phone">Phone number</label>
+                <div class="phone-number-group">
+                  <select id="country-code" name="country-code">
+                    <option value="IN">IN +91</option>
+                    <option value="US">US +1</option>
+                    <option value="GB">GB +44</option>
+                    <option value="CA">CA +1</option>
+                    <option value="AU">AU +61</option>
+                    <option value="DE">DE +49</option>
+                    <option value="FR">FR +33</option>
+                    <option value="BR">BR +55</option>
+                    <option value="ZA">ZA +27</option>
+                    <option value="RU">RU +7</option>
+                    <option value="CN">CN +86</option>
+                    <option value="JP">JP +81</option>
+                    <option value="KR">KR +82</option>
+                    <option value="IT">IT +39</option>
+                    <option value="ES">ES +34</option>
+                    <option value="MX">MX +52</option>
+                    <option value="AR">AR +54</option>
+                    <option value="NG">NG +234</option>
+                    <option value="SA">SA +966</option>
+                    <option value="AE">AE +971</option>
+                    <option value="SG">SG +65</option>
+                    <option value="NL">NL +31</option>
+                    <option value="CH">CH +41</option>
+                    <option value="SE">SE +46</option>
+                    <option value="TR">TR +90</option>
+                    <!-- Add more country codes as needed -->
+                  </select>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="+91 8088695332"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="input-group">
+                <label for="message">How can we help?</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Tell us a little about the project..."
+                  required
+                ></textarea>
+              </div>
+              <div class="input-group">
+                <label>Services</label>
+                <div class="checkbox-group">
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="services"
+                      id="value1"
+                      value="website-design"
+                    />
+                    Website design</label
+                  >
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="services"
+                      id="value2"
+                      value="full-stack"
+                    />
+                    Full Stack Project</label
+                  >
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="services"
+                      id="value3"
+                      value="user-research"
+                    />
+                    User research</label
+                  >
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="services"
+                      id="value4"
+                      value="content-creation"
+                    />
+                    Content creation</label
+                  >
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="services"
+                      id="value6"
+                      value="other"
+                    />
+                    Other</label
+                  >
+                </div>
+              </div>
+              <button type="submit" class="submit-btn">Let's Connect</button>
+
+              <!-- <button type="submit" class="submit-btn">Get started</button> -->
+              <!-- <div class="response" id="response"></div> -->
+            </form>
+          </div>
+        </div>
+        <div class="loader" id="loader"></div>
+        <div class="popover" id="popover">
+          <div class="response" id="response"></div>
+          <button id="ClosePop" onclick="closePopover()">Close</button>
+        </div>
+      </section>
+      <!-- footer starts-->
+      <footer class="footer">
+        <p>Strive for perfection in whatever you do</p>
+      </footer>
+      <!-- footer ends-->
+    </div>
+    <script src="Asserts/js/portfolio_js.js"></script>
+    <script src="Asserts/js/contact.js"></script>
+  </body>
+</html>
